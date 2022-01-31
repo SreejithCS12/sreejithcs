@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+/* Header section starts*/
+
+header{
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.15);
+    padding: 20px;
+   position: absolute;
+     top:0;
+
+
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkmagenta;
+}
+header .container{
+    display: flex;
+    justify-content:space-between;
+}
+
+/*Header section ends*/
+
+/*Banner section starts*/
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(76, 212, 230, 0.993),rgb(54, 124, 216)),url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+}
+
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+/*Banner section ends*/
+
+/*Left section starts*/
+.left-section{
+    width: 600px;
+}
+.left-section h1{
+    margin: 0;
+    font-size: 40px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.left-section p{
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgba(20, 12, 2, 0.74);
+    margin-top: 20px;
+    line-height: 28px;
+}
+.left-section button{
+    color: rgba(133, 35, 10, 0.952);
+    background-color:white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* left section ends */
+
+/* Right section starts */
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(20, 12, 2, 0.74);
+}
+.right-section h4{
+    font-size: 20px;
+    width:300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color:rgb(46, 38, 38)
+}
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label{
+    color: rgb(32, 19, 3);
+    font-size: larger;
+    position:relative;
+    top: 10px;
+    transition: 0.5s ease-in-out;
+
+
+}
+.input-group input{
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.input-group input:focus ~ label {
+    color: rgb(95, 199, 25);
+    top: -10px;
+    font-size: 12px;
+
+}
+
